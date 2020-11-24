@@ -1,0 +1,6 @@
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Entidades\bin\Debug\Entidades.dll
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Entidades\obj\Debug\Entidades.dll
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Entidades\obj\Debug\Entidades.pdb

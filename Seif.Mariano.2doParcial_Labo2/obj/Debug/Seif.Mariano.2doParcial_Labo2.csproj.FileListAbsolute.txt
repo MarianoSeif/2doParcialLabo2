@@ -1,0 +1,13 @@
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\bin\Debug\Seif.Mariano.2doParcial_Labo2.exe.config
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\bin\Debug\Seif.Mariano.2doParcial_Labo2.exe
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\bin\Debug\Seif.Mariano.2doParcial_Labo2.pdb
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\bin\Debug\Entidades.dll
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\bin\Debug\Entidades.pdb
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\obj\Debug\Seif.Mariano.2doParcial_Labo2.csprojAssemblyReference.cache
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\obj\Debug\Seif.Mariano._2doParcial_Labo2.FormCartelera.resources
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\obj\Debug\Seif.Mariano._2doParcial_Labo2.Properties.Resources.resources
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\obj\Debug\Seif.Mariano.2doParcial_Labo2.csproj.GenerateResource.cache
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\obj\Debug\Seif.Mariano.2doParcial_Labo2.csproj.CoreCompileInputs.cache
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\obj\Debug\Seif.Mariano.2doParcial_Labo2.csproj.CopyComplete
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\obj\Debug\Seif.Mariano.2doParcial_Labo2.exe
+C:\Users\ms\source\repos\Seif.Mariano.2doParcial_Labo2\Seif.Mariano.2doParcial_Labo2\obj\Debug\Seif.Mariano.2doParcial_Labo2.pdb
