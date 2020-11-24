@@ -81,7 +81,7 @@ namespace Entidades
             }
             
             listaTerminados.Push(pedido);
-            int milisegundos = random.Next(4, 5) * 1000;
+            int milisegundos = random.Next(5, 7) * 1000;
             Thread.Sleep(milisegundos);
         }
 

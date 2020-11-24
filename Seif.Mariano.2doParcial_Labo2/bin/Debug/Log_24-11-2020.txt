@@ -14,3 +14,81 @@
 24/11/2020 - 16:34:33 - Se creó un nuevo cliente: 
 24/11/2020 - 16:34:33 - Se creó un nuevo pedido
 24/11/2020 - 16:34:38 - Se creó un nuevo pedido
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo cliente: 
+24/11/2020 - 18:01:42 - Se creó un nuevo pedido
+24/11/2020 - 18:01:47 - Se creó un nuevo pedido
+24/11/2020 - 18:01:52 - Se creó un nuevo pedido
+24/11/2020 - 18:01:57 - Se creó un nuevo pedido
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo cliente: 
+24/11/2020 - 18:08:03 - Se creó un nuevo pedido
+24/11/2020 - 18:08:08 - Se creó un nuevo pedido
+24/11/2020 - 18:08:13 - Se creó un nuevo pedido
+24/11/2020 - 18:08:19 - Se creó un nuevo pedido
+24/11/2020 - 18:08:24 - Se creó un nuevo pedido
+24/11/2020 - 18:08:29 - Se creó un nuevo pedido
+24/11/2020 - 18:08:34 - Se creó un nuevo pedido
+24/11/2020 - 18:21:16 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:16 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:16 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:16 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:16 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:16 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:16 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:16 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:17 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:17 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:17 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:17 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:17 - Se creó un nuevo cliente: 
+24/11/2020 - 18:21:17 - Se creó un nuevo pedido
+24/11/2020 - 18:21:22 - Se creó un nuevo pedido
+24/11/2020 - 18:21:27 - Se creó un nuevo pedido
+24/11/2020 - 18:21:30 - Error - Subproceso anulado.
+24/11/2020 - 18:21:30 - Error - Subproceso anulado.
+24/11/2020 - 18:21:44 - Error - Subproceso anulado.
+24/11/2020 - 18:21:45 - Error - Subproceso anulado.
+24/11/2020 - 18:21:45 - Error - Subproceso anulado.
+24/11/2020 - 18:21:45 - Error - Subproceso anulado.
+24/11/2020 - 18:21:45 - Error - Subproceso anulado.
+24/11/2020 - 18:21:45 - Error - Subproceso anulado.
+24/11/2020 - 18:21:45 - Error - Subproceso anulado.
+24/11/2020 - 18:21:45 - Error - Subproceso anulado.
+24/11/2020 - 18:21:45 - Error - Subproceso anulado.
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo cliente: 
+24/11/2020 - 18:22:51 - Se creó un nuevo pedido
+24/11/2020 - 18:22:56 - Se creó un nuevo pedido

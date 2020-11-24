@@ -114,7 +114,6 @@ namespace Seif.Mariano._2doParcial_Labo2
             }
             catch (ThreadAbortException ex)
             {
-                //
             }
             catch (Exception ex)
             {
@@ -136,7 +135,6 @@ namespace Seif.Mariano._2doParcial_Labo2
             }
             catch (ThreadAbortException ex)
             {
-                //
             }
             catch (Exception ex)
             {
@@ -156,7 +154,6 @@ namespace Seif.Mariano._2doParcial_Labo2
             }
             catch (ThreadAbortException ex)
             {
-                //
             }
             catch (Exception ex)
             {
@@ -168,14 +165,11 @@ namespace Seif.Mariano._2doParcial_Labo2
         {
             try
             {
-                
                 FastFood.Delivery();
-                
                 DeliveryBoy();
             }
             catch (ThreadAbortException ex)
             {
-                //
             }
             catch (Exception ex)
             {
