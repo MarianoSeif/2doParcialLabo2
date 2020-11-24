@@ -1,2 +1,0 @@
-Cliente: Eze
-Domicilio: Rodriguez 1500

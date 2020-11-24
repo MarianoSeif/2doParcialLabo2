@@ -16,10 +16,8 @@ namespace Entidades
         /// </summary>
         /// <param name="datos"></param>
         /// <returns></returns>
-        public static bool Guardar(T datos)
+        public static bool Guardar(string archivo, T datos)
         {
-            string archivo = "pedidos_pendientes.xml";
-
             if (datos == null)
             {
                 throw new Exception("La fuente de datos no es válida");
@@ -48,9 +46,8 @@ namespace Entidades
         /// </summary>
         /// <param name="datos"></param>
         /// <returns></returns>
-        public static bool Leer(out T datos)
+        public static bool Leer(string archivo, out T datos)
         {
-            string archivo = "pedidos_pendientes.xml";
             if (File.Exists(archivo))
             {
                 try

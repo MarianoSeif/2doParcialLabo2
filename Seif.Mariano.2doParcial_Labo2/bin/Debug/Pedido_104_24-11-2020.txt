@@ -1,2 +1,0 @@
-Cliente: Juan
-Domicilio: PAraguay 100

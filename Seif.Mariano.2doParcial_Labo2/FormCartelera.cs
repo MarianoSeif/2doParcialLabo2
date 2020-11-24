@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
 using System.Threading;
+using System.Media;
 
 namespace Seif.Mariano._2doParcial_Labo2
 {
@@ -32,13 +33,6 @@ namespace Seif.Mariano._2doParcial_Labo2
 
                 FastFood.pedidoCambioDeEstadoEvent += this.InformarPedidoListo;
 
-                //Oculta la seleccion de los datagrids
-                this.dtgPedidos.DefaultCellStyle.SelectionBackColor = this.dtgPedidos.DefaultCellStyle.BackColor;
-                this.dtgPedidos.DefaultCellStyle.SelectionForeColor = this.dtgPedidos.DefaultCellStyle.ForeColor;
-
-                this.dtgTerminados.DefaultCellStyle.SelectionBackColor = this.dtgTerminados.DefaultCellStyle.BackColor;
-                this.dtgTerminados.DefaultCellStyle.SelectionForeColor = this.dtgTerminados.DefaultCellStyle.ForeColor;
-
                 //Se crean y se inician los hilos
                 listaHilos = new List<Thread>();
                 listaHilos.Add(new Thread(this.RefrescarDatagrids));
@@ -54,9 +48,8 @@ namespace Seif.Mariano._2doParcial_Labo2
             catch (Exception ex)
             {
                 Logger.RegistrarEvento(ex);
-                //MessageBox.Show("Pasaron cosas...: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            
+                MessageBox.Show("Pasaron cosas...: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }   
         }
 
         private void FormCartelera_FormClosing(object sender, FormClosingEventArgs e)
@@ -75,12 +68,12 @@ namespace Seif.Mariano._2doParcial_Labo2
                 {
                     DB.ActualizarEstadoPedido(pedido);
                 }
-                Serializador<List<Pedido>>.Guardar(FastFood.listaPedidos.ToList());
+                Serializador<List<Pedido>>.Guardar("pedidos_pendientes.xml", FastFood.listaPedidos.ToList());
                 MessageBox.Show("Un saludo a 2do C", "Bye", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -119,9 +112,13 @@ namespace Seif.Mariano._2doParcial_Labo2
                 Thread.Sleep(1500);
                 RefrescarDatagrids();
             }
+            catch (ThreadAbortException ex)
+            {
+                //
+            }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -137,9 +134,13 @@ namespace Seif.Mariano._2doParcial_Labo2
                     this.GenerarPedido();
                 }
             }
+            catch (ThreadAbortException ex)
+            {
+                //
+            }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -153,9 +154,13 @@ namespace Seif.Mariano._2doParcial_Labo2
                 }
                 ProcesarPedido();
             }
+            catch (ThreadAbortException ex)
+            {
+                //
+            }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -168,9 +173,13 @@ namespace Seif.Mariano._2doParcial_Labo2
                 
                 DeliveryBoy();
             }
+            catch (ThreadAbortException ex)
+            {
+                //
+            }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -192,7 +201,7 @@ namespace Seif.Mariano._2doParcial_Labo2
         private void InformarPedidoListo(Pedido pedido)
         {
             this.lblPedidoListo.Text = $"{pedido.Cliente} ya puede retirar su pedido";
+            SystemSounds.Hand.Play();
         }
-
     }
 }

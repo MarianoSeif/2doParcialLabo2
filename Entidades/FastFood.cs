@@ -16,12 +16,10 @@ namespace Entidades
         public static List<Cliente> listaClientes;
         public static Stack<Pedido> listaTerminados;
         public static Queue<Pedido> listaDelivery;
-        public static string nombreLog;
         
 
         static FastFood()
         {
-            nombreLog = "Log_" + DateTime.Now.LogFileName();
             random = new Random();
             listaTerminados = new Stack<Pedido>();
             listaDelivery = new Queue<Pedido>();
@@ -58,9 +56,8 @@ namespace Entidades
                 pedido.cambioEstadoEvent += AvisarAlFormCambioDeEstado;
                 listaPedidos.Enqueue(pedido);
                 
-                //Logger.RegistrarEvento<Venta>(venta);
-                //Serializador<Venta>.Guardar("venta.xml", venta);
                 DB.GuardarPedido(pedido);
+                pedido.DejarRegistroEnLog();
             }
             catch (Exception e)
             {
@@ -126,7 +123,7 @@ namespace Entidades
         {
             //listaPedidos = DB.TraerPedidos();
             List<Pedido> tempListaPedidos = new List<Pedido>();
-            Serializador<List<Pedido>>.Leer(out tempListaPedidos);
+            Serializador<List<Pedido>>.Leer("pedidos_pendientes.xml", out tempListaPedidos);
             listaPedidos = new Queue<Pedido>(tempListaPedidos);
             foreach (Pedido pedido in listaPedidos)
             {

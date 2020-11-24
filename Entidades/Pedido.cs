@@ -72,7 +72,6 @@ namespace Entidades
         {
             this.estado = EEstadoPedido.pendiente;
             this.items = new List<ItemPedido>();
-            this.DejarRegistroEnLog();
         }
 
         public Pedido(Cliente cliente, bool delivery):this()

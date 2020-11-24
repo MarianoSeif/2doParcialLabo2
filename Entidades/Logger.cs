@@ -21,14 +21,14 @@ namespace Entidades
         /// <returns></returns>
         public static bool RegistrarEvento<T>(T objeto, string mensaje) where T : IRegistrarse
         {
-            string archivo = DateTime.Today.LogFileName(); //Metodo de extensión de la clase DateTime
-
+            string archivo = "Log_" + DateTime.Now.LogFileName();
+            
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(DateTime.Now.LogFormatedDateTime() + objeto.Mensaje); //Metodo de extensión de la clase DateTime
 
             try
             {
-                using (StreamWriter fileWriter = new StreamWriter(FastFood.nombreLog, true))
+                using (StreamWriter fileWriter = new StreamWriter(archivo, true))
                 {
                     fileWriter.Write(sb.ToString());
                     return true;
@@ -47,12 +47,13 @@ namespace Entidades
         /// <returns></returns>
         public static bool RegistrarEvento(Exception e)
         {
+            string archivo = "Log_" + DateTime.Now.LogFileName();
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(DateTime.Now.LogFormatedDateTime() + "Error - " + e.Message); //Metodo de extensión de la clase DateTime
 
             try
             {
-                using (StreamWriter fileWriter = new StreamWriter(FastFood.nombreLog, true))
+                using (StreamWriter fileWriter = new StreamWriter(archivo, true))
                 {
                     fileWriter.Write(sb.ToString());
                     return true;
